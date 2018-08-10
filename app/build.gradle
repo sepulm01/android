@@ -1,0 +1,78 @@
+//noinspection GradleCompatible
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "org.tensorflow.lite.demo"
+        minSdkVersion 26
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        // Remove this block.
+//        jackOptions {
+//            enabled true
+//        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    aaptOptions {
+        noCompress "tflite"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    externalNativeBuild {
+        cmake {
+            path '../jni/CMakeLists.txt'
+        }
+    }
+}
+
+repositories {
+    maven {
+        url 'https://google.bintray.com/tensorflow'
+    }
+}
+
+// import DownloadModels task
+project.ext.ASSET_DIR = projectDir.toString() + '/src/main/assets'
+project.ext.TMP_DIR = project.buildDir.toString() + '/downloads'
+
+// Download default models; if you wish to use your own models then
+// place them in the "assets" directory and comment out this line.
+apply from: "download-models.gradle"
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //  androidTestCompile('com.androidx.test.espresso:espresso-core:2.2.2', {
+    //      exclude group: 'com.android.support', module: 'support-annotations'
+    //  })
+    implementation 'org.tensorflow:tensorflow-lite:0.0.0-nightly'
+    implementation 'com.google.firebase:firebase-database:16.0.1'
+    implementation 'com.google.firebase:firebase-storage:16.0.1'
+    testImplementation 'junit:junit:4.12'
+
+
+
+   // implementation 'com.google.firebase:firebase-auth:16.0.1'
+   // implementation files('src/android-3.1.jar')
+    implementation 'com.google.code.gson:gson:2.8.0'
+   // implementation 'com.google.android.gms:play-services-location:15.0.1'
+    implementation 'com.android.support:support-annotations:27.1.1'
+
+}
+
+apply plugin: 'com.google.gms.google-services'

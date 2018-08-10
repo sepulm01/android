@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "505532311925",
+    "firebase_url": "https://file2net-a30e6.firebaseio.com",
+    "project_id": "file2net-a30e6",
+    "storage_bucket": "file2net-a30e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505532311925:android:b01db18433589acd",
+        "android_client_info": {
+          "package_name": "org.tensorflow.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505532311925-ivkasktb4ti7hebls60muvpst7mc5sv1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.tensorflow.demo",
+            "certificate_hash": "c8829cda84da5833276c68ce29e960129b0e20a8"
+          }
+        },
+        {
+          "client_id": "505532311925-aqom6u5emjsefd68sp47i8r4n5ptlk5o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.tensorflow.demo",
+            "certificate_hash": "4ccbee5d592ae3bc80c8c4ab9ce4f6b816ca1bf6"
+          }
+        },
+        {
+          "client_id": "505532311925-8jg13msurig08r6bgsr47es02kigkg2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBURugOrTQUE9LDwwrXGpo_GqBBm8POxwo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505532311925-8jg13msurig08r6bgsr47es02kigkg2e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505532311925:android:b4e9266d8635099d",
+        "android_client_info": {
+          "package_name": "org.tensorflow.lite.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505532311925-q0v66rg2fq0slt478769kp6jfes8egf6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.tensorflow.lite.demo",
+            "certificate_hash": "2e617d8d545f36858a3366d4cc9fbdc4e0fa3676"
+          }
+        },
+        {
+          "client_id": "505532311925-8jg13msurig08r6bgsr47es02kigkg2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBURugOrTQUE9LDwwrXGpo_GqBBm8POxwo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505532311925-8jg13msurig08r6bgsr47es02kigkg2e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

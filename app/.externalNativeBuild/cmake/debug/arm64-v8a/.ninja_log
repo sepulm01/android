@@ -1,0 +1,16 @@
+# ninja log v5
+0	214	0	CMakeFiles/tensorflow_demo.dir/imageutils_jni.cc.o	2cce7f010ef4c3cb
+214	243	0	CMakeFiles/tensorflow_demo.dir/yuv2rgb.cc.o	99c760d6d934f968
+0	962	0	CMakeFiles/tensorflow_demo.dir/object_tracking/frame_pair.cc.o	e4665c30dc8d6211
+0	1165	0	CMakeFiles/tensorflow_demo.dir/object_tracking/image_neon.cc.o	50ed8b18286dae57
+0	1224	0	CMakeFiles/tensorflow_demo.dir/object_tracking/keypoint_detector.cc.o	78510bc28b18b380
+1	1225	0	CMakeFiles/tensorflow_demo.dir/object_tracking/logging.cc.o	bfbaf8df505e3abf
+0	1253	0	CMakeFiles/tensorflow_demo.dir/object_tracking/object_detector.cc.o	2a9670645175f250
+1253	1318	0	CMakeFiles/tensorflow_demo.dir/rgb2yuv.cc.o	e494837bc4deb7df
+1224	2135	0	CMakeFiles/tensorflow_demo.dir/object_tracking/optical_flow.cc.o	d154f2058dc224a2
+243	2252	0	CMakeFiles/tensorflow_demo.dir/object_tracking/object_tracker.cc.o	900e61990518ac37
+1225	2259	0	CMakeFiles/tensorflow_demo.dir/object_tracking/time_log.cc.o	ff98afce1b7aa677
+1165	2349	0	CMakeFiles/tensorflow_demo.dir/object_tracking/object_tracker_jni.cc.o	d356c41d9666d365
+962	2368	0	CMakeFiles/tensorflow_demo.dir/object_tracking/tracked_object.cc.o	ded886a515bb19
+1318	2465	0	CMakeFiles/tensorflow_demo.dir/object_tracking/utils_neon.cc.o	b2d52496c1171bd9
+2465	3376	0	/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/cmake/debug/obj/arm64-v8a/libtensorflow_demo.so	2c5af3600444af12

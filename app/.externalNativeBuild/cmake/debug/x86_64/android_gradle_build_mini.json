@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/martin/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/.externalNativeBuild/cmake/debug/x86_64 --target clean"
+  ],
+  "libraries": {
+    "tensorflow_demo-Debug-x86_64": {
+      "artifactName": "tensorflow_demo",
+      "buildCommand": "/home/martin/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/.externalNativeBuild/cmake/debug/x86_64 --target tensorflow_demo",
+      "abi": "x86_64",
+      "output": "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/cmake/debug/obj/x86_64/libtensorflow_demo.so"
+    }
+  }
+}

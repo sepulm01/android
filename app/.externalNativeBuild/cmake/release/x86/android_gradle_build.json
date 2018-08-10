@@ -1,0 +1,119 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/home/martin/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/.externalNativeBuild/cmake/release/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cc" ],
+	"libraries" : 
+	{
+		"tensorflow_demo-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "tensorflow_demo",
+			"buildCommand" : "/home/martin/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/.externalNativeBuild/cmake/release/x86 --target tensorflow_demo",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/martin/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/martin/Android/Sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I/home/martin/Documents/tensorflow/tensorflow/contrib -I/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/martin/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=26 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni/imageutils_jni.cc",
+					"workingDirectory" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/martin/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/martin/Android/Sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I/home/martin/Documents/tensorflow/tensorflow/contrib -I/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/martin/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=26 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni/object_tracking/frame_pair.cc",
+					"workingDirectory" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/martin/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/martin/Android/Sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I/home/martin/Documents/tensorflow/tensorflow/contrib -I/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/martin/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=26 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni/object_tracking/image_neon.cc",
+					"workingDirectory" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/martin/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/martin/Android/Sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I/home/martin/Documents/tensorflow/tensorflow/contrib -I/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/martin/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=26 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni/object_tracking/keypoint_detector.cc",
+					"workingDirectory" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/martin/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/martin/Android/Sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I/home/martin/Documents/tensorflow/tensorflow/contrib -I/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/martin/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=26 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni/object_tracking/logging.cc",
+					"workingDirectory" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/martin/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/martin/Android/Sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I/home/martin/Documents/tensorflow/tensorflow/contrib -I/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/martin/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=26 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni/object_tracking/object_detector.cc",
+					"workingDirectory" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/martin/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/martin/Android/Sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I/home/martin/Documents/tensorflow/tensorflow/contrib -I/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/martin/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=26 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni/object_tracking/object_tracker.cc",
+					"workingDirectory" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/martin/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/martin/Android/Sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I/home/martin/Documents/tensorflow/tensorflow/contrib -I/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/martin/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=26 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni/object_tracking/object_tracker_jni.cc",
+					"workingDirectory" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/martin/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/martin/Android/Sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I/home/martin/Documents/tensorflow/tensorflow/contrib -I/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/martin/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=26 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni/object_tracking/optical_flow.cc",
+					"workingDirectory" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/martin/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/martin/Android/Sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I/home/martin/Documents/tensorflow/tensorflow/contrib -I/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/martin/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=26 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni/object_tracking/time_log.cc",
+					"workingDirectory" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/martin/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/martin/Android/Sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I/home/martin/Documents/tensorflow/tensorflow/contrib -I/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/martin/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=26 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni/object_tracking/tracked_object.cc",
+					"workingDirectory" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/martin/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/martin/Android/Sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I/home/martin/Documents/tensorflow/tensorflow/contrib -I/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/martin/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=26 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni/object_tracking/utils_neon.cc",
+					"workingDirectory" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/martin/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/martin/Android/Sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I/home/martin/Documents/tensorflow/tensorflow/contrib -I/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/martin/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=26 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni/rgb2yuv.cc",
+					"workingDirectory" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/martin/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/martin/Android/Sdk/ndk-bundle/sysroot  -Dtensorflow_demo_EXPORTS -I/home/martin/Documents/tensorflow/tensorflow/contrib -I/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/martin/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/martin/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=26 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/jni/yuv2rgb.cc",
+					"workingDirectory" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/cmake/release/obj/x86/libtensorflow_demo.so",
+			"toolchain" : "11558545980669601283"
+		}
+	},
+	"toolchains" : 
+	{
+		"11558545980669601283" : 
+		{
+			"cCompilerExecutable" : "/home/martin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/martin/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}
