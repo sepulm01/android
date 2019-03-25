@@ -22,6 +22,11 @@
     <uses-sdk
         android:minSdkVersion="26"
         android:targetSdkVersion="28" />
+    <!--
+        <uses-sdk
+         android:minSdkVersion="21"
+    android:targetSdkVersion="23" />
+    -->
 
     <uses-permission android:name="android.permission.CAMERA" />
 
