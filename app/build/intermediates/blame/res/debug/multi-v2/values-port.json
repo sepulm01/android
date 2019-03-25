@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "outputFile": "/home/martin/Documents/StudioProjects/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/home/martin/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bb7f4525477dc01a913a49f0092891b4/res/values-port/values-port.xml",
+                    "source": "/home/martin/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/1f91580e747e80b79c1a965cf4dc5dd8/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

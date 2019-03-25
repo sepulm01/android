@@ -1,13 +1,7 @@
-#Fri Aug 10 16:17:57 CLT 2018
-path.3=classes.dex
-path.2=classes.dex
+#Mon Mar 25 07:52:17 CLST 2019
+base.0=/home/martin/Documents/StudioProjects/app/build/intermediates/transforms/dexMerger/debug/0
 path.1=classes.dex
-path.0=classes.dex
-renamed.3=classes4.dex
-renamed.2=classes3.dex
 renamed.1=classes2.dex
+path.0=classes.dex
 renamed.0=classes.dex
-base.3=/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/transforms/dexMerger/debug/233
-base.2=/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/transforms/dexMerger/debug/234
-base.1=/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/transforms/dexMerger/debug/232
-base.0=/home/martin/Documents/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/transforms/dexMerger/debug/235
+base.1=/home/martin/Documents/StudioProjects/app/build/intermediates/transforms/dexMerger/debug/1
